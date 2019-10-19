@@ -1,0 +1,240 @@
+
+
+article{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#topSection {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-image: url("../images/balcony.jpg");
+    background-size: cover;
+}
+
+#topSection h1{
+
+    font-size: 2em;
+}
+#topSection h2{
+    font-style: italic;
+    font-size: 2.5em;
+    background-color: crimson;
+}
+
+#introduction{
+    display: flex;
+    height: 550px;
+    color: white;
+    font-size: 2em;
+}
+
+#introduction h1{
+    color: white;
+    background: crimson;
+    font-style: italic;
+}
+
+#introduction h2{
+    font-size: 0.8em;
+    color: white;
+    background: crimson;
+    font-style: italic;
+}
+
+#introduction a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#room2\&3 a, #room1 a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#aboutUs{
+    position: relative;
+    display: flex;
+    flex:1;
+    background-image: url("../images/exterior.jpg");
+    background-size: cover;
+    transition-duration: .5s;
+}
+
+
+#aboutUs:hover,#room1:hover,#room2:hover,#room3:hover{
+    opacity: 0.5;
+}
+
+.roomIntro{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+
+#room2\&3{
+    flex: 1;
+    display: flex;
+}
+
+#room1{
+    flex:1;
+    background-image: url("../images/room/suite.png");
+    background-size: cover;
+    transition-duration: .5s;
+}
+
+#room2{
+    flex:1;
+    background-image: url("../images/room/queen_room.jpg");
+    background-size: cover;
+    transition-duration: .5s;
+}
+
+#room3{
+     flex:1;
+     background-image: url("../images/room/superior_king_room.jpg");
+     background-size: cover;
+    transition-duration: .5s;
+ }
+
+
+
+.introSpace,#hotelIntro{
+    flex:1;
+}
+
+
+
+.speIntro h1{
+    font-style: italic;
+    font-size: 2.5em;
+    background-color: crimson;
+    text-align: center;
+    color: white;
+}
+
+
+
+#specialy{
+    display: flex;
+    height: 500px;
+}
+
+#spe2 a, #spe3 a, #spe4 a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+#spe1 a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: white;
+    align-items: end;
+    justify-content: center;
+}
+
+#specialy h1 {
+    background-color: crimson;
+    font-style: italic;
+    font-size: 2em;
+}
+
+#spe1\&2{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+
+#spe1{
+    flex:1;
+    display: flex;
+    background-image: url("../images/specialty/photographer.png");
+    background-size: cover;
+    transition-duration: .5s;
+}
+
+#spe2{
+    flex:1;
+    display: flex;
+    background-image: url("../images/specialty/motocycle.jpg");
+    background-size: cover;
+    transition-duration: .5s;
+}
+#spe3\&4{
+    flex:1;
+    display: flex;
+}
+
+#spe3{
+    flex:1;
+    display: flex;
+    background-image: url("../images/specialty/cooking.jpg");
+    background-size: cover;
+    transition-duration: .5s;
+}
+
+#spe4{
+    flex:1;
+    display: flex;
+    background-image: url("../images/specialty/pets.png");
+    background-size: cover;
+    transition-duration: .5s;
+}
+
+#spe1:hover, #spe2:hover,#spe3:hover,#spe4:hover{
+    opacity: 0.6;
+}
+
+footer {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /*border: 1px solid black;*/
+    font-size: 0.8em;
+}
+
+#footerLeft {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0 0 10px;
+    width: 400px;
+}
+
+#footerLeft a {
+    padding-top: 12px;
+    font-family: sans-serif;
+
+}
+
+#footerRight {
+    margin: 5px 50px 0 0 ;
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+
+#footerRight a{
+    margin: 0 3px;
+}
