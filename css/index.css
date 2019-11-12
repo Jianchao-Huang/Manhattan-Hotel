@@ -58,7 +58,7 @@ article{
     align-items: center;
 }
 
-#room2\&3 a, #room1 a{
+#Queen\&King a, #suiteImage a{
     width: 100%;
     height: 100%;
     display: flex;
@@ -76,7 +76,7 @@ article{
 }
 
 
-#aboutUs:hover,#room1:hover,#room2:hover,#room3:hover{
+#aboutUs:hover,#suiteImage:hover,#QueenImage:hover,#KingImage:hover{
     opacity: 0.5;
 }
 
@@ -86,26 +86,26 @@ article{
     flex-direction: column;
 }
 
-#room2\&3{
+#Queen\&King{
     flex: 1;
     display: flex;
 }
 
-#room1{
+#suiteImage{
     flex:1;
     background-image: url("../images/room/suite.png");
     background-size: cover;
     transition-duration: .5s;
 }
 
-#room2{
+#QueenImage{
     flex:1;
     background-image: url("../images/room/queen_room.jpg");
     background-size: cover;
     transition-duration: .5s;
 }
 
-#room3{
+#KingImage{
      flex:1;
      background-image: url("../images/room/superior_king_room.jpg");
      background-size: cover;
@@ -118,6 +118,10 @@ article{
     flex:1;
 }
 
+
+#hotelIntro p{
+    font-size: 1.5em;
+}
 
 
 .speIntro h1{
@@ -205,36 +209,3 @@ article{
     opacity: 0.6;
 }
 
-footer {
-    background-color: white;
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    /*border: 1px solid black;*/
-    font-size: 0.8em;
-}
-
-#footerLeft {
-    display: flex;
-    justify-content: space-between;
-    margin: 5px 0 0 10px;
-    width: 400px;
-}
-
-#footerLeft a {
-    padding-top: 12px;
-    font-family: sans-serif;
-
-}
-
-#footerRight {
-    margin: 5px 50px 0 0 ;
-    display: flex;
-    justify-content: space-between;
-    width: 80px;
-}
-
-#footerRight a{
-    margin: 0 3px;
-}

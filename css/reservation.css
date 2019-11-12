@@ -1,0 +1,61 @@
+body{
+    background-image: url("../images/reservation_background.jpg");
+    background-size: cover;
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    padding-bottom: 10px;
+}
+
+form{
+    margin-top: 50px;
+    font-family: sans-serif;
+    width: 400px;
+    background-color: white;
+    color: black ;
+    padding-bottom: 30px;
+    border-radius: 30px;
+}
+
+
+h1{
+    text-align: center;
+    color: #dd1d5e;
+}
+
+form p{
+    font-weight: bold;
+}
+
+
+
+#checkoutForm {
+    padding: 30px;
+
+}
+fieldset{
+    border: 0;
+}
+
+.error{
+    display: block;
+    color: red;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+#submitButton {
+    height: 18px;
+    border-radius: 8px;
+    border: none;
+    background-color: #dd1d5e;
+    color: white;
+    font-size: 0.875em;
+    text-decoration: none;
+}
+

@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+table {
+    width: 95%;
+    margin: 0px auto;
+}
+
+
+th, td, tr{
+    padding: 10px 10px 10px 10px;
+    background-color: lavender;
+    font-weight: bold;
+    text-align: center;
+    width: 10%;
+    height: 5%;
+}
+
+.notice {
+    color: crimson;
+}

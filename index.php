@@ -7,29 +7,17 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-<header>
-    <div class="headerSpace">
-        <div id="logo">
-            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
-        </div>
-    </div>
-    <nav>
-        <ul id="navitems">
-            <li><a href="about_us.html">About Us</a></li>
-            <li><a href="book.html">Book</a></li>
-            <li id="feelHome"><a href="feelhome.html">FeelHome</a></li>
-            <li><a href="location.html">Location</a></li>
-            <li><a href="signIn.html">Sign In</a></li>
-        </ul>
-    </nav>
-    <div class="headerSpace"></div>
-</header>
+<?php
+include('header.php');
+?>
 <article>
     <section id="topSection">
             <div class="introSpace"></div>
             <div id="hotelIntro">
-                <h1>Welcome to the MARMARA</h1>
-                <h2>Just Feel Like Home</h2>
+                <h1>Welcome to </h1>
+                <h2>Just Like Home</h2>
+                <p>Take a breath</p>
+                <p>Grab a drink, play with cute animals, and cook with us</p>
             </div>
             <div class="introSpace"></div>
     </section>
@@ -43,18 +31,18 @@
                 </a>
         </div>
         <div class="roomIntro">
-            <div id="room1">
+            <div id="suiteImage">
                 <a href="book.html">
                     <h1>Suite</h1>
                 </a>
             </div>
-            <div id="room2&3">
-                <div id="room2">
+            <div id="Queen&King">
+                <div id="QueenImage">
                     <a href="book.html">
                         <h2>Queen Room</h2>
                     </a>
                 </div>
-                <div id="room3">
+                <div id="KingImage">
                     <a href="book.html">
                         <h2>King Room</h2>
                     </a>
@@ -93,17 +81,8 @@
     </section>
 
 </article>
-<footer>
-    <div id="footerLeft">
-        <p>&copy;MarMar Manhattan</p>
-        <a href="#">Contact Us</a>
-        <a href="https://www.google.com/maps/place/Midtown+Manhattan,+New+York,+NY/@40.7504824,-74.0189432,13z/data=!3m1!4b1!4m5!3m4!1s0x89c25901a4127ca9:0xbecdcc9081d6cfdb!8m2!3d40.7549309!4d-73.9840195">Directions</a>
-    </div>
-    <div id="footerRight">
-        <a href="#"><img src ="images/icon/facebook_icon.png" alt="Facebook"></a>
-        <a href="#"><img src ="images/icon/twitter_icon.png" alt ="Twitter"></a>
-        <a href="#"><img src ="images/icon/instagram_icon.png" alt ="Instagram"></a>
-    </div>
-</footer>
+<?php
+include('footer.php');
+?>
 </body>
 </html>

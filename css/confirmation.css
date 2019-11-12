@@ -1,0 +1,97 @@
+/* Styles only used on the banner */
+#topSection {
+
+    display:flex;
+    flex-direction:column;
+    background: #2B2D42;
+    color: #8D99AE;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    justify-content: space-around;
+
+}
+
+
+/* Styles used for top section that contains page heading */
+
+#topSection {
+    max-width: 1400px;
+    padding: 30px 190px 30px 140px;
+}
+#topSection h1{
+    color:blue;
+    text-align: center;
+}
+    /* Styles used for bottom section that contains Customer form and Checkout summary */
+
+#bottomSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 1400px;
+    padding-left: 70px;
+}
+
+/* Styles used for Customer Input Form */
+
+#thankText {
+    max-width: 465px;
+}
+
+
+#checkoutTable td {
+    vertical-align: top;
+    text-align: right;
+    margin: 15px;
+    height: 40px;
+}
+
+
+
+/* Styles used for Checkout summary */
+
+ul {
+    list-style-type: square;
+    line-height: 150%;
+}
+
+#checkoutSummary {
+    margin: 55px 0;
+    background-color: #fff9fc;
+}
+
+#checkoutTotals {
+    margin: 20px 0 0 0px;
+    background-color: #fff9fc;
+    padding: 20px 0 20px 30px;
+    border-radius: 4px;
+    width: 275px;
+}
+
+#checkoutTotals td {
+    text-align: left;
+    padding: 5px;
+
+}
+
+.total {
+    border-top: 1px solid black;
+    font-weight:bold;
+
+}
+
+
+.commandButton {
+    height: 30px;
+    width: 150px;
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #dd1d5e;
+    font-size: smaller;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
